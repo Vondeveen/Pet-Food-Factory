@@ -1,0 +1,27 @@
+{
+  "name": "pet-food-factory",
+  "version": "1.0.0",
+  "description": "4-player online organ sorting party game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vondeveen/Pet-Food-Factory.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vondeveen/Pet-Food-Factory/issues"
+  },
+  "homepage": "https://github.com/Vondeveen/Pet-Food-Factory#readme",
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4",
+    "three": "0.160.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

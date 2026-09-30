@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pet-food-factory
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
